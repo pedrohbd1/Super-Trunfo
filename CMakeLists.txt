@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 4.0)
-project(untitled C)
+cmake_minimum_required(VERSION 3.27)
+project(SuperTrunfo C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(untitled main.c)
+add_executable(SuperTrunfo super_trunfo.c)

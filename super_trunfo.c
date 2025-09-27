@@ -2,7 +2,7 @@
 #include <string.h> // para usar strcspn
 
 int main() {
-    //Carta 1
+    //Carta1
     char estado1;
     char codigo1[4];
     char nome1[50];
@@ -11,7 +11,7 @@ int main() {
     float pib1;
     int pontos1;
 
-    //Carta 2
+    //Carta2
     char estado2;
     char codigo2[4];
     char nome2[50];
@@ -20,7 +20,7 @@ int main() {
     float pib2;
     int pontos2;
 
-    //  Entrada de Dados
+    //Entrada
     printf("=== Cadastro da Carta 1 ===\n");
 
     printf("Estado (A-H): ");
@@ -73,7 +73,7 @@ int main() {
     scanf("%d", &pontos2);
 
 
-    //  Saída de Dados
+    //Saída
     printf("\n==============================\n");
     printf("Carta 1:\n");
     printf("Estado: %c\n", estado1);
